@@ -3,4 +3,4 @@ services:
     name: pocketbase
     runtime: docker
     dockerfilePath: ./pocketbase/Dockerfile
-    buildCommand: docker build -t pocketbase --build-arg VERSION=0.20.0 . 
+    dockerCommand: docker build -t pocketbase --build-arg VERSION=0.20.0 . 
