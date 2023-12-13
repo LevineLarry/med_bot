@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true
+  },
+  "exclude": ["node_modules", "build", "dist", "dist_local", ".serverless"],
+  "include": ["**/*.ts", "**/*.js", "**/*.tsx"],
+  "ts-node": {
+      "require": ["tsconfig-paths/register"]
+  }
+}
